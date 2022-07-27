@@ -40,6 +40,9 @@
         </div>
       </nav>
     </header>
+    <section id="tours">
+    
+
 <div class="container">
     <h1 class="text-center mt-4">Our amazing tours</h1>
     <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ipsam culpa, sequi eaque dolore dolores debitis vero velit quae quis id quod magni nam voluptate? Accusantium ab error suscipit totam.</p>
@@ -91,7 +94,50 @@
         </div>
     </div>
 </div>
+</section>
+<section id="contact" class="my-5">
+  <div class="container">
+  <h2>Contact us</h2>
+  <form action="#">
+    <div class="row">
+      <div class="col-6">
+        <label for="email-address" class="form-label mt-3">Your email</label>
+        <input type="email" id="email-address" name="email" class="form-control" placeholder="Insert your email" required>
+      </div>
+      <div class="col-6">
+        <label for="tour" class="form-label mt-3">Tour</label>
+        <select class="form-select" name="tour" id="tour" required>
+          <option value="tour-1">Explore the sea</option>
+          <option value="tour-2">Hike in th forest</option>
+          <option value="tour-3">Camp in the snow</option>
+        </select>
+      </div>
+      <div class="col-6">
+        <label for="start-date" class="form-label mt-3">Start date</label>
+        <input type="date" id="start-date" name="date" class="form-control" required>
+      </div>
+      <div class="col-6">
+        <label for="end-date" class="form-label mt-3">End date</label>
+        <input type="date" id="end-date" name="date" class="form-control" required>
+      </div>
+      <div class="col-6">
+        <div class="form-check mt-3">
+          <input class="form-check-input" type="checkbox" value="accept" id="accept-terms" required>
+          <label class="form-check-label " for="accept-terms">
+            Accept terms and conditions
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col">
+        <button type="submit" class="btn btn-dark">Submit</button>
 
+      </div>
+    </div>
+  </form>
+</div>
+</section>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
